@@ -6,7 +6,7 @@ var app = express()
 
 app.use(express.static('public'))
 
-// app.use(express.urlencoded({ extenede: true }))
+app.use(express.urlencoded({ extenede: true }))
 app.use(express.json())
 
 // set handlebars
@@ -24,4 +24,4 @@ app.listen(PORT, () => {
   console.log('Server is listening on: http://localhost:' + PORT)
 })
 
-module.exports = app
+// module.exports = app

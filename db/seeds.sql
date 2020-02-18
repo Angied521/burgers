@@ -1,5 +1,5 @@
 USE burgers_db;
 
-INSERT INTO burgers_db (burger) VALUES ('Cheese Burger');
-INSERT INTO burgers_db (burger) VALUES ('Veggie Burger');
-INSERT INTO burgers_db (burger) VALUES ('Hamburger');
+INSERT INTO burgers (burger_name) VALUES ('Cheese Burger');
+INSERT INTO burgers (burger_name) VALUES ('Veggie Burger');
+INSERT INTO burgers (burger_name) VALUES ('Hamburger');
