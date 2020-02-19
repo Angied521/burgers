@@ -1,7 +1,8 @@
 li {
+    text-align: center;
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: burlywood;
   }
   
   .label {
@@ -17,4 +18,5 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+  
   
