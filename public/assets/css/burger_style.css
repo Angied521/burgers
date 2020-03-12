@@ -52,8 +52,8 @@ li {
 /*  background image */
 
 body {
-  background-image: url("/assets/img/burgerBackground.jpg");
-  background-color: #cccccc;
+  background: url("/assets/img/burgerBackground.jpg");
+  background: #cccccc;
   height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
